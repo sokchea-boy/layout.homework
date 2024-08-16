@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3d3c3c;
+    color: #fff;
+}
+header{
+    background-color: #6b2bbe;
+    border:3px solid black ;
+    margin: 10px ;
+    text-align: center;
+    padding: 10px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+}
+.containA{
+   flex: 1;
+   background: #5481e4;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 10px;
+   height: 450px;
+   border: 3px solid black;
+}
+ .containB{
+    flex: 5;
+ }
+footer{
+    background: rgb(42, 5, 102);
+    border: 3px solid rgb(3, 3, 3);
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+.cheal{
+    flex: 1;
+    text-align: center;
+    display: flex;
+    gap: 0.5%;
+    height: 230px;
+}
+.cheal-1{
+    background: #6794ce;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+    border: 3px solid black;
+}
+.cheal-2{
+    background: #5d9adf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 10px;
+    border: 3px solid black;
+    padding: 30px;
+}
+.main{
+    background: #313ca1;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    margin: 10px;
+    padding: 30px;
+}
